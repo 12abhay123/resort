@@ -1,0 +1,33 @@
+{
+  "name": "smart-resort-360-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host localhost",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.4",
+    "framer-motion": "^13.4.4",
+    "jsqr": "^1.4.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.48.0",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^8.3.1"
+  }
+}
